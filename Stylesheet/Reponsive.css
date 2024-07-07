@@ -1,3 +1,103 @@
+@media (max-width:1200px) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(255, 235, 205, 0.486), rgba(255, 255, 255, 0.9)), url(../img/background-img\ \(2\).png);
+    background-position: center;
+  } 
+
+  #header h5 {
+    margin-left: -330px;
+  }
+
+  .feature {
+    flex-wrap: nowrap;
+  }
+
+  .product1 .pro-container {
+    display: flex;
+    justify-content: center;
+  
+  }
+
+  .sm-banner .banner-box {
+    min-width: 100%;
+    height: 30vh;
+    margin-bottom: 20px;
+  }
+
+  .newsletter .form {
+    width: 70%;
+  }
+}
+
+
+/* Media Query for large screen size */
+/* Media Query for  (max-width: 900px)screen size */
+
+
+@media (max-width:900px) {
+
+   .hero {
+    background-image: linear-gradient(to right, rgba(255, 235, 205, 0.486), rgba(255, 255, 255, 0.9)), url(../img/background-img\ \(2\).png);
+    background-position: center;
+  } 
+
+  #header h5 {
+    margin-left: -10px;
+  }
+
+  .feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .sm-banner .banner-box {
+    min-width: 100%;
+    height: 30vh;
+    margin-bottom: 20px;
+  }
+
+   .banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-right: 60px;
+  }
+
+  .banner3 .banner-box {
+   margin-left: 10px;
+   min-width: 35%;
+  }
+
+  .newsletter .form {
+    width: 70%;
+  }
+}
+
+/* Media Query for medium screen size */
+/* Media Query for  (max-width: 835px)screen size */
+
+ 
+ @media (max-width: 835px) {
+  .about-head {
+    flex-direction: column;
+  }
+
+  .about-head img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .about-head div {
+    padding-left: 0px;
+  }
+
+  .about-app .video {
+    width: 100%;
+  }
+ }
+
 @media (max-width: 803px) {
   .hero h2 {
     font-size: 40px;
@@ -7,6 +107,9 @@
     font-size: 40px;
   }
 }
+
+/* Media Query for medium screen size */
+/* Media Query for  (max-width: 799px)screen size */
 
 @media (max-width: 799px) {
   .section-p1 {
@@ -71,8 +174,14 @@
     background-position: top 30% right 30%;
   }
 
+  .hero {
+    background-image: linear-gradient(to right, rgba(255, 235, 205, 0.486), rgba(255, 255, 255, 0.9)), url(../img/background-img\ \(2\).png);
+      background-position: center;
+  } 
+
   .feature {
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   .feature .fe-box {
@@ -113,9 +222,9 @@
   }
 
   /* shop.blog */
-  .page-header {
-    /* height: 30vh; */
-  }
+  /* .page-header {
+    height: 30vh;
+  } */
 
   /* single product */
 
@@ -144,6 +253,8 @@
   }
 }
 
+
+
 @media (max-width: 701px) {
   .hero h2 {
     font-size: 36px;
@@ -154,8 +265,60 @@
   }
 }
 
+
+/* Media Query for medium screen size */
+/* Media Query for  (max-width: 623px)screen size */
+
+
+@media (max-width: 623px) {
+  h4 {
+    font-size: 12px;
+  }
+
+  .hero h2 {
+    font-size: 35px;
+  }
+  .hero h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 610px) {
+  h4 {
+    font-size: 12px;
+  }
+
+  .hero h2 {
+    font-size: 30px;
+  }
+  .hero h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 547px) {
+  .hero h2 {
+    font-size: 28px;
+  }
+  .hero h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 520px) {
+  .hero h2 {
+    font-size: 20px;
+  }
+  .hero h1 {
+    font-size: 20px;
+  }
+}
+
+
+
 /* Media Query for smaller screen size */
 /* Media Query for  (max-width: 477px)screen size */
+
 
 @media (max-width: 477px) {
   /* home-page */
@@ -174,7 +337,6 @@
 
   .hero {
     padding: 0 20px;
-    /* background-position: 55%; */
   }
 
   .hero h2 {
@@ -232,11 +394,13 @@
   }
 
   .banner3 {
-    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
   }
 
   .banner3 .banner-box {
     width: 100%;
+  
   }
 
   .newsletter {
@@ -337,58 +501,59 @@
   }
 }
 
-@media (max-width: 623px) {
-  h4 {
-    font-size: 12px;
+
+/* Media Query for smaller screen size */
+/* Media Query for  (max-width: 427px)screen size */
+
+
+@media (max-width: 427px) {
+  .hero {
+       background-image: linear-gradient(to right, rgba(255, 235, 205, 0.486), rgba(255, 255, 255, 0.9)), url(../img/background-img\ \(2\).png);
+      background-position: center;
+  } 
+  
+  .banner {
+    height: 20vh;
   }
 
-  .hero h2 {
-    font-size: 35px;
-  }
-  .hero h1 {
-    font-size: 35px;
-  }
-}
+ }
 
-@media (max-width: 610px) {
-  h4 {
-    font-size: 12px;
-  }
+@media (max-width: 413px) {
+  .hero {
+   background-image: linear-gradient(to right, rgba(255, 235, 205, 0.486), rgba(255, 255, 255, 0.9)), url(../img/background-img\ \(2\).png);
+      background-position: center;
+  } 
+ }
 
-  .hero h2 {
-    font-size: 30px;
-  }
-  .hero h1 {
-    font-size: 30px;
-  }
-}
 
-@media (max-width: 547px) {
-  .hero h2 {
-    font-size: 28px;
-  }
-  .hero h1 {
-    font-size: 28px;
-  }
-}
+ @media (max-width: 410px) {
+  .hero {
+   background-image: url(../img/background-img\ \(2\).png);
+   background-position: top 20% right -25pc;
+  } 
+ }
 
-@media (max-width: 520px) {
-  .hero h2 {
-    font-size: 20px;
+
+ @media (max-width: 400px) {
+  .hero {
+      background-image: linear-gradient(to right, rgba(255, 235, 205, 0.486), rgba(255, 255, 255, 0.9)), url(../img/background-img\ \(2\).png);
+    background-position: center;
+    white-space: nowrap;
+   } 
+   .hero h1 {
+    font-size: 24px;
+   
   }
-  .hero h1 {
-    font-size: 20px;
-  }
-}
+ }
+
+
 
 /* Media Query for smaller screen size */
 /* Media Query for  (max-width: 350px)screen size */
 
+
+
 @media (max-width: 370px) {
-  /* home */
-  /* #header img {
-    margin-left: -105px;
-  } */
   #header h5 {
     margin-left: -45px;
   }
@@ -415,3 +580,13 @@
     font-size: 23px;
   }
 }
+
+
+@media (max-width: 360px) {
+ .hero {
+     background-image: linear-gradient(to right, rgba(255, 235, 205, 0.486), rgba(255, 255, 255, 0.9)), url(../img/background-img\ \(2\).png);
+  background-position: center;
+} 
+}
+
+
