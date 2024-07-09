@@ -4,7 +4,7 @@
 } */
 
   #header h5 {
-    margin-left: -450px;
+    margin-left: -410px;
   }
 
   .sm-banner .banner-box {
@@ -21,7 +21,7 @@
   } 
 
   #header h5 {
-    margin-left: -330px;
+    margin-left: -240px;
   }
 
   .feature {
@@ -112,6 +112,11 @@
     flex-direction: column;
   }
 
+  #header h5 {
+    /* margin-right: -30px; */
+    white-space: nowrap;
+  }
+
   .about-head img {
     width: 100%;
     margin-bottom: 20px;
@@ -128,15 +133,8 @@
 
  @media (max-width:830px) {
   #header, a img {
-    margin-right: -40px;
+    margin-right: -1px;
   }
-  #header h5 {
-    margin-right: -20px;
-  }
-
-  /* #navbar li a.active {
-   margin-left: 40px;
-  } */
   
 
 
@@ -169,9 +167,10 @@
     background-position: center;
   }
 
-  #header h5 {
-    margin-right: -30px;
+  #header, a img {
+    margin-right: -2px;
   }
+
 
   .hero h2 {
     font-size: 40px;
@@ -209,7 +208,7 @@
   }
 
   #header h5 {
-    margin-left: -400px;
+    margin-left: -330px;
   }
 
   #navbar.active {
@@ -601,7 +600,7 @@
   }
 
   #header h5 {
-    margin-left: -150px;
+    margin-left: -110px;
   }
   
   .banner {
@@ -641,8 +640,15 @@
 /* Media Query for  (max-width: 350px)screen size */
 
 @media (max-width:395px) {
+
+  .hero {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.615), rgba(255, 255, 255, 0.478)), url(../img/young-african-american-woman-shopping-with-colorful-packs-black-wall.png);
+    background-position: center;
+  }
+  
   #header h5 {
-    margin-left: -150px;
+    margin-left: -100px;
+
   }
 }
 
@@ -661,8 +667,6 @@
   .hero h1 {
     font-size: 16px;
   }
-
- 
 
   /* features */
   .feature {
@@ -685,10 +689,15 @@
 
   #header h5 {
     margin-left: -10px;
+    white-space: nowrap;
   }
 
-  #mobile i {
-    margin-right: 10px;
+   
+  #mobile, i bx {
+    /* color: #1a1a1a;
+    font-size: 25px;
+    padding-left: 20px; */
+    margin-left: -120px;
   }
 
   .hero p {
